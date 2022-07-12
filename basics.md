@@ -1,4 +1,4 @@
-## COMANDOS PARA CRIAR UM NOVO PROJETO
+## New Project
 
 <b>git init </b>
 <i>- iniciamos o git no repositório do projeto </i>
