@@ -1,6 +1,7 @@
 ## COMANDOS PARA CRIAR UM NOVO PROJETO
 
-git init - iniciamos o git no repositório do projeto
+git init 
+<b>- iniciamos o git no repositório do projeto </b>
 
 git remote add origin "add link do repositório"- adiciona o link do repositório
 
