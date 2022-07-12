@@ -19,6 +19,7 @@
 <i>- traz/clona um projeto de um repositório remoto que eu tenha permissão para alterar.</i>
 
 <b>git log </b>
+<b>git log --oneline </b>
 <i>- mostra as versões // O git log --oneline mostra as versões de forma resumida</i>
 
 <b>git reset </b>
@@ -29,3 +30,10 @@
 
 <b>git checkout* </b>
 <i>- usado para modificar temporariamente os arquivos do projeto ao estado de um dado commit ou branch.</i>
+
+####Ações destrutivas
+<b>git reset --hard *numero commit*</b>
+<i>- Apaga todas as modificações depois deste commit</i>
+
+b>git push -f</b>
+<i>- força as alterações do repo local apagando todo o historico ate o commit especificado no reset hard</i>
