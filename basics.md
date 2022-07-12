@@ -31,9 +31,19 @@
 <b>git checkout* </b>
 <i>- usado para modificar temporariamente os arquivos do projeto ao estado de um dado commit ou branch.</i>
 
-####Ações destrutivas
+#### Ações destrutivas
 <b>git reset --hard *numero commit*</b>
 <i>- Apaga todas as modificações depois deste commit</i>
 
-b>git push -f</b>
+<b>git push -f</b>
 <i>- força as alterações do repo local apagando todo o historico ate o commit especificado no reset hard</i>
+
+<b>git remote -v</b>
+<i>- Mostra o remote atual</i>
+
+#### Apontando projeto para outro repositio
+
+<i> a ideia é trocar a referencia do remote </i>
+
+<b>git remote set-url origin *nome do novo repo*</b>
+<i>- Aponto o projeto para outro repositorio alterando seu endereço remote</i>
