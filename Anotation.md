@@ -3,20 +3,29 @@
 <b>git init </b>
 <i>- iniciamos o git no repositório do projeto </i>
 
-git remote add origin "add link do repositório"- adiciona o link do repositório
+<b>git remote add origin "add link do repositório"</b>
+<i>- adiciona o link do repositório</i>
 
-git add * - * adiciona tudo (Se faz esse comando antes do git remote, ele cria a pasta stage e adiciona de forma temporária as modificações feitas)
+<b>git add * - * </b>
+<i>adiciona tudo (Se faz esse comando antes do git remote, ele cria a pasta stage e adiciona de forma temporária as modificações feitas)</i>
 
-git commit -m "adiciona o commit com padrões" - https://github.com/iuricode/padroes-de-commits
+<b>git commit -m "adiciona o commit com padrões" </b>
+<i>- https://github.com/iuricode/padroes-de-commits</i>
 
-git push origin master - Adicionar branch correta
+<b>git push origin master </b>
+<i>- Adicionar branch correta</i>
 
-git clone - traz/clona um projeto de um repositório remoto que eu tenha permissão para alterar.
+<b>git clone </b>
+<i>- traz/clona um projeto de um repositório remoto que eu tenha permissão para alterar.</i>
 
-git log - mostra as versões // O git log --oneline mostra as versões de forma resumida
+<b>git log </b>
+<i>- mostra as versões // O git log --oneline mostra as versões de forma resumida</i>
 
-git reset - volta para o estado anterior. Se estava no stage (git add), sai do stage.
+<b>git reset </b>
+<i>- volta para o estado anterior. Se estava no stage (git add), sai do stage.</i>
 
-git diff - mostra a diferença entre arquivos modificados
+<b>git diff </b>
+<i>- mostra a diferença entre arquivos modificados</i>
 
-git checkout* - usado para modificar temporariamente os arquivos do projeto ao estado de um dado commit ou branch.
+<b>git checkout* </b>
+<i>- usado para modificar temporariamente os arquivos do projeto ao estado de um dado commit ou branch.</i>
